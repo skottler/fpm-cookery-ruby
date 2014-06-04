@@ -8,7 +8,7 @@ The process is pretty simple to build these packages:
 1. `yum install -y rpmdevtools ruby-devel rubygems ruby`
 2. `gem install bundler --no-ri --no-rdoc`
 3. `bundle install`
-4. `fpm-cook package <version.rb> -t rpm -p centos`
+4. `fpm-cook package -t rpm -p centos <version.rb>`
 5. Wait a little while and the package will be in `pkg/`
 
 ###
